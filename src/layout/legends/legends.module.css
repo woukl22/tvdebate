@@ -1,0 +1,146 @@
+.legends {
+    width: 100%;
+    height: 50px;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: row;
+    font-size: 14px;
+    font-weight: 500;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+.legendsText {
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+    padding-left: 15px;
+    padding-right: 10px;
+}
+
+.legendsContainer {
+    width: 400px;
+    min-width: 400px;
+    max-width: 400px;
+    height: 100%;
+}
+
+.buttonContainer {
+    width: 10%;
+    height: 100%;
+}
+
+.button {
+    width: 90px;
+    color: white;
+    background-color: #9c27b0;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.upperContainer, .lowerContainer {
+    width: 100%;
+    height: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.upperContainer {
+    margin-bottom: 5px;
+}
+
+.labelContainer {
+    display: flex;
+    align-items: center;
+    margin-right: 16px;
+    user-select: none;
+    cursor: pointer;
+}
+
+.colorBox {
+    width: 16px;
+    height: 16px;
+    margin-right: 4px;
+}
+
+.circle {
+    width: 12px;
+    height: 12px;
+    border: 2px solid;
+    border-radius: 50%;
+    margin-right: 4px;
+}
+
+.cross {
+    position: relative;
+    width: 15px;
+    height: 15px;
+    margin-right: 4px;
+}
+
+.topLeft, .topRight, .bottomLeft, .bottomRight {
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    border-radius: 60%;
+}
+
+.topLeft {
+    top: 0;
+    left: 0;
+    border-top: 2.3px solid black;
+    border-left: 2.3px solid black;
+}
+
+.topRight {
+    top: 0;
+    right: 0;
+    border-top: 2.3px solid black;
+    border-right: 2.3px solid black;
+}
+
+.bottomLeft {
+    bottom: 0;
+    left: 0;
+    border-bottom: 2.3px solid black;
+    border-left: 2.3px solid black;
+}
+
+.bottomRight {
+    bottom: 0;
+    right: 0;
+    border-bottom: 2.3px solid black;
+    border-right: 2.3px solid black;
+}
+
+.argumentationArea {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.diamond {
+    width: 11px;
+    height: 11px;
+    border: 1px solid #FF0000;
+    transform: rotate(45deg);
+    margin-right: 8px;
+}
+
+.multicolorCircle {
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    position: relative;
+    background: conic-gradient(
+        #C7611E 0% 25%,
+        #00a0e2 25% 50%,
+        #00AB6E 50% 75%,
+        #B60E3C 75% 100%
+    );
+    -webkit-mask: radial-gradient(circle, transparent 45%, black 46%);
+    mask: radial-gradient(circle, transparent 45%, black 46%);
+    margin-right: 8px;
+}

@@ -1,5 +1,5 @@
 import { React } from 'react';
-import { Header } from './layout';
+import { Header, Legends } from './layout';
 import styles from './App.module.css';
 
 function App() {
@@ -8,6 +8,7 @@ function App() {
     <>
       <div>
         <Header />
+        <Legends />
       </div>
     </>
   )

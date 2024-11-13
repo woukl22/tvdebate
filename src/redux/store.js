@@ -1,8 +1,9 @@
 import { configureStore } from '@reduxjs/toolkit';
+import { scriptReducer } from './slices';
 
 const store = configureStore({
   reducer: {
-    
+    script: scriptReducer,
   },
 });
 
